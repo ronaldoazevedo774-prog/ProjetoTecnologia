@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071133;
+}
+
+/* MENU */
+nav {
+    background-color: #111c70;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* LINKS */
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+/* BOTÕES */
+.links a {
+    text-decoration: none;
+    color: white;
+    background-color: #2439d1;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.links a:hover {
+    background-color: #4d6fff;
+}
+
+@media(max-width: 768px) {
+
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+
+    .links a {
+        margin: 5px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .principal {
+        width: 95%;
+        padding: 20px;
+    }
+
+}
+
+.inicio {
+    
+    
+    
+
+    padding-left: 40px;
+
+    width: 80%;
+    text-align: center;
+
+    padding-top: 220px;
+}
+
+/* TEXTO */
+.texto {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+
+
+/* TITULO */
+.texto h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+/* PARÁGRAFO */
+.texto p {
+    color: #cbd5e1;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* BOTÃO */
+.botao {
+    text-decoration: none;
+    background-color: #2439d1;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* HOVER */
+.botao :hover {
+    background-color: #4d6fff;
+    transition: 0.3s;
+}
