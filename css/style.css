@@ -16,7 +16,7 @@ nav {
     background-color: #111c70;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ nav {
     text-decoration: none;
     color: white;
     background-color: #2439d1;
-    padding: 10px 10px;
+    padding: 10px 8px;
     border-radius: 10px;
     margin: 0 10px;
     transition: 0.3s;
@@ -46,7 +46,7 @@ nav {
     background-color: #4d6fff;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 340px) {
 
     .links {
         flex-wrap: wrap;
@@ -56,13 +56,13 @@ nav {
 
     .links a {
         margin: 5px;
-        padding: 8px 12px;
-        font-size: 14px;
+        padding: 5px 10px;
+        font-size: 12px;
     }
 
     .principal {
         width: 95%;
-        padding: 20px;
+        padding: 10px;
     }
 
 }
