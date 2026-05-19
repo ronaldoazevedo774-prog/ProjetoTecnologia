@@ -16,6 +16,26 @@ header {
     padding: 20px;
 }
 
+nav {
+    background-color: #2c5d8a;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+    padding: 8px 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #1e3a5f;
+}
+
 .paragrafo1 {
     margin-top: 10px;
 }
@@ -66,7 +86,8 @@ section {
 }
 
 .segundoh2 {
-    color: #1e3a5f;
+    color: #1c3250;
+    font-size: 25px;
 }
 
 .shr {
@@ -77,9 +98,34 @@ section {
 }
 
 ul {
-    color: #333333;
+    background-color: #f8fafc;
+    border-left: 4px solid #1e3a5f;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border-radius: 6px;
+    line-height: 1.8;
 }
 
 ul li {
+    color: #333333;
     margin-bottom: 8px;
+}
+
+.ultimop {
+    text-align: left;
+}
+
+footer {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    font-size: 14px;
+    border-top: 4px solid #ffd700;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #ffffff;
 }
