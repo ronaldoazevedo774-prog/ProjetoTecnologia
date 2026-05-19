@@ -6,6 +6,9 @@
 
 body {
     background-color: #071133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* MENU */
@@ -66,16 +69,11 @@ nav {
 
 .inicio {
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
     align-items: center;
-
     text-align: center;
-
-    padding-top: 220px;
+    padding-top: 200px;
 }
 
 
@@ -113,7 +111,7 @@ nav {
 }
 
 /* HOVER */
-.botao :hover {
+.botao:hover {
     background-color: #4d6fff;
     transition: 0.3s;
 }
