@@ -115,3 +115,26 @@ nav {
     background-color: #4d6fff;
     transition: 0.3s;
 }
+
+@media(max-width: 340px) {
+    .texto {
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* TITULO */
+    .texto h1 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* PARÁGRAFO */
+    .texto p {
+        color: #cbd5e1;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
