@@ -84,6 +84,12 @@ main {
     margin-top: 20px;
 }
 
+.p2main {
+    color: #333333;
+    margin-block-end: 30px;
+    margin-top: 10px;
+}
+
 section {
     background-color: #fff8c4;
     border-left: 5px solid #ffd700;
@@ -105,6 +111,7 @@ section {
 .segundoh2 {
     color: #1c3250;
     font-size: 25px;
+    margin-top: 10px;
 }
 
 .shr {
